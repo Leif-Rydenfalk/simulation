@@ -4,9 +4,20 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-# wgpu = "0.18"
-winit = "0.30"
-# env_logger = "0.10"
-# pollster = "0.3"
-# bytemuck = { version = "1.14", features = ["derive"] }
-nalgebra-glm = "0.3"
+krnl = { version = "0.1.1", default-features = false, features = ["device"] }
+# krnl-core = { version = "0.1.1", default-features = false }
+# krnl-macros = { version = "0.1.1", default-features = false }
+# krnlc = { version = "0.1.1", default-features = false }
+
+# # wgpu = "0.18"
+# winit = "0.30"
+# # env_logger = "0.10"
+# # pollster = "0.3"
+# # bytemuck = { version = "1.14", features = ["derive"] }
+# nalgebra-glm = "0.3"
+# approx = "0.5.1"
+# criterion = { version = "0.4.0", default-features = false }
+# cust = { version = "0.3.2", optional = true }
+# futures = { version = "0.1", optional = true }
+# qutex = { version = "=0.2.3", optional = true }
+# rand = "0.8.5"
